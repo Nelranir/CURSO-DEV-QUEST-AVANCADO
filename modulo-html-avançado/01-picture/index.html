@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens responsivas usando a tag picture</title>
+</head>
+<body>
+    
+    <!-- <h1>Picture com mobile first</h1> -->
+
+    <!-- <picture>
+        <source media="(min-width: 1024px)" srcset="https://fakeimg.pl/1200"> 
+
+        <source media="(min-width: 768px)" srcset="https://fakeimg.pl/850"> 
+
+        <source media="(min-width: 465px)" srcset="https://fakeimg.pl/500"> 
+
+        <img src="https://fakeimg.pl/300x300" alt="Imagen placeholder">
+    </picture> -->
+
+    <h1>Picture com desktop first</h1>
+
+    <picture>
+        <source media="(max-width: 375px)" srcset="https://fakeimg.pl/250"> 
+
+        <source media="(max-width: 425px)" srcset="https://fakeimg.pl/350"> 
+
+        <source media="(max-width: 768px)" srcset="https://fakeimg.pl/500"> 
+
+        <img src="https://fakeimg.pl/1200" alt="Imagen placeholder">
+    </picture>
+
+</body>
+</html>
